@@ -1,4 +1,11 @@
--- january
+/* What are the top skills based on salary for a Data Analyst?
+- Average salary associated with each skill for Data Analyst positions.
+- Include only the jobs with salaries, regardless of location.
+- Why? It will allow me to understand how this skills impact at such level the salary of a data analyst. e.g. 
+The skill is in high demand because there is a low offer of people who master it, however, if I choose this path
+it could limit my possibilities of getting a job in a field that I enjoy.
+*/
+
 SELECT 
     company_dim.name,
     january_2023.job_title,
@@ -21,4 +28,3 @@ WHERE salary_year_avg IS NOT NULL
     AND work_category = 'Remote'
 
 ORDER BY salary_year_avg DESC
-    
