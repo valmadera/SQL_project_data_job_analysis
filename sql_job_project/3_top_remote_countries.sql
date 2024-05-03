@@ -5,30 +5,24 @@
 to find better payment when working remotely.
 */
 
-    SELECT 
-          job_country,
-          COUNT (job_country) AS number_of_jobs,
-          ROUND(AVG(salary_year_avg),0) AS average_salary
-
-    FROM
-        job_postings_fact 
-        INNER JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
-
-    WHERE
-        salary_year_avg IS NOT NULL AND
-        job_location = 'Anywhere' AND
-        job_country IS NOT NULL
-
-    GROUP BY
-        job_country
-
-    HAVING
-        COUNT (job_country) > 4
-
-    ORDER BY
-        average_salary DESC,
-        number_of_jobs
-
+SELECT 
+    job_country,
+    COUNT (job_country) AS number_of_jobs,
+    ROUND(AVG(salary_year_avg),0) AS average_salary
+FROM
+    job_postings_fact 
+    INNER JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
+WHERE
+    salary_year_avg IS NOT NULL AND
+    job_location = 'Anywhere' AND
+    job_country IS NOT NULL
+GROUP BY
+    job_country
+HAVING
+    COUNT (job_country) > 4
+ORDER BY
+    average_salary DESC,
+    number_of_jobs
 LIMIT 10;
     
 

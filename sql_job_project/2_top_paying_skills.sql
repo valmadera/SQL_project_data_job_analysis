@@ -4,6 +4,7 @@
 my possibilities of getting a job position. 
 */
 
+-- CTE
 WITH job_skills AS (
     SELECT 
         job_postings_fact.job_id,
@@ -21,7 +22,7 @@ WITH job_skills AS (
         salary_year_avg DESC
     )
 
-
+--Query
 SELECT
     skills,
     COUNT (skills) AS count_of_requested_skill,

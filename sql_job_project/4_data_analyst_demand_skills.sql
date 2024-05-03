@@ -5,26 +5,23 @@
 or Data Scientist. Only data analyst roles.
 */
 
+
 SELECT
     skills,
-    count (skills) AS count_of_requested_skill
-
+    COUNT (skills) AS count_of_requested_skill,
+    ROUND (AVG (salary_year_avg),0) AS avg_salary
 FROM
-   (SELECT 
-        salary_year_avg
-        skills
-    FROM
-        job_postings_fact 
-        INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
-        INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
-    WHERE
-        salary_year_avg IS NOT NULL AND
-        job_title LIKE '%Data Analyst%'
-    ORDER BY salary_year_avg DESC
-    ) AS  job_skill_app
+    job_postings_fact 
+    INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+    INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE
+    job_location = 'Anywhere' AND
+    job_title LIKE '%Data Analyst%'
+GROUP BY 
+    skills
+ORDER BY 
+    count_of_requested_skill DESC
+LIMIT
+     5;
 
-GROUP BY count_of_skills
 
-ORDER BY count_of_skills DESC
-
-LIMIT 5;
