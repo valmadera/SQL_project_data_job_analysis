@@ -6,25 +6,20 @@ The skill is in high demand because there is a low offer of people who master it
 it could limit my possibilities of getting a job in a field that I enjoy.
 */
 
-SELECT 
-    company_dim.name,
-    january_2023.job_title,
-    january_2023.job_location,
-    january_2023.job_work_from_home,
-    january_2023.work_category,
-    january_2023.salary_year_avg,
-    CASE
-        WHEN january_2023.salary_year_avg <= 60000 THEN 'Low'
-        WHEN january_2023.salary_year_avg BETWEEN 60000 AND 100000 THEN 'STANDARD'
-        ELSE 'High'
-    END AS salary_category
-
-FROM january_2023 
-   LEFT JOIN company_dim
-   ON january_2023.company_id = company_dim.company_id
-
-WHERE salary_year_avg IS NOT NULL 
-    AND job_title LIKE '%Data Analyst%'
-    AND work_category = 'Remote'
-
-ORDER BY salary_year_avg DESC
+SELECT
+    skills,
+    ROUND (AVG (salary_year_avg),0) AS avg_salary
+FROM
+    job_postings_fact 
+    INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+    INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE
+    salary_year_avg IS NOT NULL AND
+    job_location = 'Anywhere' AND
+    job_title LIKE '%Data Analyst%' 
+GROUP BY 
+    skills
+ORDER BY 
+    avg_salary DESC
+LIMIT
+     5;

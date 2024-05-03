@@ -8,8 +8,7 @@ or Data Scientist. Only data analyst roles.
 
 SELECT
     skills,
-    COUNT (skills) AS count_of_requested_skill,
-    ROUND (AVG (salary_year_avg),0) AS avg_salary
+    COUNT (skills) AS count_of_requested_skill
 FROM
     job_postings_fact 
     INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
