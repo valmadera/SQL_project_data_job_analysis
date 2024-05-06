@@ -2,9 +2,7 @@
 - Indentify the top 5 in-demand skills for a data analyst.
 - All job posting, including NULL values. 
 - Why? This will provide insights of the most requested skills for someone who is not a Data Engineer 
-or Data Scientist. Only data analyst roles.
-*/
-
+or Data Scientist. Only Data Analyst roles regardless the payment.*/
 
 SELECT
     skills,

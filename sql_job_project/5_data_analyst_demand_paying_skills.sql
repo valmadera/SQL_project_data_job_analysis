@@ -1,10 +1,9 @@
 /* What are the top skills based on salary for a Data Analyst?
 - Average salary associated with each skill for Data Analyst positions.
-- Include only the jobs with salaries, regardless of location.
+- Include only the jobs with salaries.
 - Why? It will allow me to understand how this skills impact at such level the salary of a data analyst. e.g. 
 The skill is in high demand because there is a low offer of people who master it, however, if I choose this path
-it could limit my possibilities of getting a job in a field that I enjoy.
-*/
+it could limit my possibilities of getting a job in a field that I enjoy.*/
 
 SELECT
     skills,

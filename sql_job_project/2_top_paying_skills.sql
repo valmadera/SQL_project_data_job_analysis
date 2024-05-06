@@ -1,8 +1,7 @@
-/* What are the top skills?
+/* What are the top skills for any remote job in Data Analysis?
 - Select the top 5 in-demand skills and their asociate estimated average salary.
-- Why? This will provide with a list of skills that I can learn, with the aim of increasing
-my possibilities of getting a job position. 
-*/
+- Why? This will provide with a list of skills that I can learn, aiming to increase my possibilities 
+of getting a job position.*/
 
 -- CTE
 WITH job_skills AS (

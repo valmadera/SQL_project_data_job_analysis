@@ -1,12 +1,11 @@
 /* What are the top-paying remote jobs?
 - Only include jobs with salaries.
-- Identifing the top 10 hihgest paying jobs available anywhere.
+- Identifing the top 10 hihgest paying jobs available anywhere(remotely).
 - Identify the companies that offer this jobs.
 - Identify the platforms where I can apply for these roles.
 - Why? This will provide insights about roles I can apply aiming to get the highest payment. Also
 I will be able to see the companies that offer the best salaries and where I can apply to get the
-job.
-*/
+job.*/
 
 SELECT
     job_title,
