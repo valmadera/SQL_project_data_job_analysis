@@ -73,7 +73,7 @@ Here is the breakdown of the top data analyst jobs in 2023:
 |Australia	   |7	        |  85,357         |
 |India	       |7	        |  84,571         |
 
-![Top Average Salaries By Countries](graphs\query_3.jpg)
+![Top Average Salaries By Countries](graphs/query_3.jpg)
 *This graph was built in Excel, it takes into account all roles for Data Analysts*
 
 ### 4. What are the most in-demand skills for a Data Analyst?
@@ -92,7 +92,7 @@ Throughtout this adventure I have turbocharged my SQL toolkit with some rerious 
 
 # Conclusions
 
-###Insights
+### Insights
 From the analysis, several general insights emerged:
 
 1. **Top-Paying Data Analyst Jobs:** The highest-paying jobs for data analysts that allow remote work offer a wide range of salaries, the highest at 650.000.
