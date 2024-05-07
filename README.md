@@ -53,7 +53,7 @@ Here is the breakdown of the top data analyst jobs in 2023:
 - **Diverse employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
 - **Wide Salary Range:** There is a high diversity in job title, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
 
-![Top Paying Remote Roles](graphs\query_1.png)
+![Top Paying Remote Roles](graphs/query_1.jpg)
 *This graph was built in Excel with the data results from my query*
 
 ### 2. What are the top skills for any remote job in Data Analysis?
