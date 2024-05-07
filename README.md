@@ -53,7 +53,7 @@ Here is the breakdown of the top data analyst jobs in 2023:
 - **Diverse employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
 - **Wide Salary Range:** There is a high diversity in job title, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
 
-![Top Paying Remote Roles](graphs\query_1.png)
+![Top Paying Remote Roles](graphs/query_1.jpg)
 *This graph was built in Excel with the data results from my query*
 
 ### 2. What are the top skills for any remote job in Data Analysis?
@@ -73,7 +73,7 @@ Here is the breakdown of the top data analyst jobs in 2023:
 |Australia	   |7	        |  85,357         |
 |India	       |7	        |  84,571         |
 
-![Top Average Salaries By Countries](graphs\query_3.jpg)
+![Top Average Salaries By Countries](graphs/query_3.jpg)
 *This graph was built in Excel, it takes into account all roles for Data Analysts*
 
 ### 4. What are the most in-demand skills for a Data Analyst?
@@ -92,7 +92,7 @@ Throughtout this adventure I have turbocharged my SQL toolkit with some rerious 
 
 # Conclusions
 
-###Insights
+### Insights
 From the analysis, several general insights emerged:
 
 1. **Top-Paying Data Analyst Jobs:** The highest-paying jobs for data analysts that allow remote work offer a wide range of salaries, the highest at 650.000.
