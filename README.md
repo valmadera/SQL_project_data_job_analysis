@@ -82,7 +82,8 @@ Here is the breakdown of the top data analyst jobs in 2023:
 
 ### 6. What are the most optimal skills to learn (High demand & high paying)?
 
-
 # What I Learned
+
+
 
 # Conclusions
