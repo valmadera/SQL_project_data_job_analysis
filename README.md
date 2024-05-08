@@ -30,7 +30,7 @@ Data hails from Luke's [SQL Course](https://lukebarousse.com/sql). It is packed 
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here is how I approached each question:
 
 ### 1. What are the top-paying remote jobs?
-To identify the highest-paying roles I filtered data analysis positions by average yearly salary and location, focusing on remote jobs. This query highlights the high-paying opportunities in the field, regardless of experience, where these job postings where made, and where I could apply for them.
+To identify the highest-paying roles I filtered data analysis positions by average yearly salary and location, focusing on remote jobs. This query highlights the high-paying opportunities in the field, regardless of experience, where these job postings were made, and where I could apply for them.
 
 ```sql 
 SELECT
@@ -55,14 +55,17 @@ Here is the breakdown of the top data analyst jobs in 2023:
 
 - **LinkedIn opportunities:** These job opportunities are in this platform, which enhances the importance of having a well-crafted LinkedIn profile.
 - **Keep learning** Top paying roles belong to Data Scientists and Data Engineers.
-- **Diversity of roles:** There is a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
-- **Wide Salary Range:** Top 10 paying data analyst roles span from $325,000 to $550,000 indicating significant salary potential in the field.
+- **Diverse of roles:** There is a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
 - **Diverse employers:** 8 out of 10 job postings are from the United States with companies like Selby Jennings, Algo Capital Group, Engtal, and Meta showing a broad interest across different industries.
+- **Wide Salary Range:** Top 10 paying data analyst roles span from $325,000 to $550,000 indicating significant salary potential in the field.
 
 ![Top Paying Remote Roles](graphs/query_1.jpg)
-*Graph built on Excel*
+*Graph built on Excel by Valeria Madera*
 
 ### 2. What are the top skills for any remote job in Data Analysis?
+To identify the top skills for remote jobs I created a temporary table of job postings joined with the skills tables where skills would be related to job postings' requests.
+
+This query counts the number of job postings asking for each skill, providing insight into the top 5 most requested skills and their associated average salaries. 
 
 ```sql
 -- CTE
@@ -97,6 +100,13 @@ ORDER BY
 LIMIT
      5;
 ```
+
+Here is the breakdown of the top skills for jobs in 2023:
+
+- **Python and SQL:** These skills were the most requested with around 2,180 requests, showing the importance of SQL.
+- **Programming tools:** When your nich is this, better learn Python and then R since Python has three times more requests.
+- **Cloud computing** The third most in-demand and best-paid skill is AWS, a cloud computing service, which states the increasing use of cloud services and the opportunity behind it.
+- **Visualization tools:** If you had to choose the most sought tool for this purpose, Tableau is probably the best option to start with. 
 
 ![Top Skills For Remote Jobs in Data Analysis](graphs/query_2.jpg)
 *This graph was built in Excel with the data results from my query*
