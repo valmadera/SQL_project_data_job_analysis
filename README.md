@@ -58,9 +58,66 @@ Here is the breakdown of the top data analyst jobs in 2023:
 
 ### 2. What are the top skills for any remote job in Data Analysis?
 
+```sql
+-- CTE
+WITH job_skills AS (
+    SELECT 
+        job_postings_fact.job_id,
+        job_title,
+        skills,
+        salary_year_avg
+    FROM
+        job_postings_fact 
+        INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+        INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+    WHERE
+        salary_year_avg IS NOT NULL AND
+        job_location = 'Anywhere'
+    ORDER BY 
+        salary_year_avg DESC
+    )
+
+--Query
+SELECT
+    skills,
+    COUNT (skills) AS count_of_requested_skill,
+    ROUND (AVG (salary_year_avg),0) AS avg_salary
+FROM
+    job_skills
+GROUP BY 
+    skills
+ORDER BY 
+    count_of_requested_skill DESC
+LIMIT
+     5;
+```
+
 ![Top Skills For Remote Jobs in Data Analysis](graphs/query_2.jpg)
+*This graph was built in Excel with the data results from my query*
 
 ### 3. Where (Countries) are the top-paying jobs for any job in Data Analysis? What are their demand?
+
+```sql
+SELECT 
+    job_country,
+    COUNT (job_country) AS number_of_jobs,
+    ROUND(AVG(salary_year_avg),0) AS average_salary
+FROM
+    job_postings_fact 
+    INNER JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
+WHERE
+    salary_year_avg IS NOT NULL AND
+    job_location = 'Anywhere' AND
+    job_country IS NOT NULL
+GROUP BY
+    job_country
+HAVING
+    COUNT (job_country) > 4
+ORDER BY
+    average_salary DESC,
+    number_of_jobs
+LIMIT 10;
+```
 
 |Country       |Demand Count|  Avg. Salary ($)|
 |--------------|------------|-----------------|
@@ -79,13 +136,78 @@ Here is the breakdown of the top data analyst jobs in 2023:
 *This graph was built in Excel, it takes into account all roles for Data Analysts*
 
 ### 4. What are the most in-demand skills for a Data Analyst?
+
+```sql
+SELECT
+    skills,
+    COUNT (skills) AS count_of_requested_skill
+FROM
+    job_postings_fact 
+    INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+    INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE
+    job_location = 'Anywhere' AND
+    job_title LIKE '%Data Analyst%'
+GROUP BY 
+    skills
+ORDER BY 
+    count_of_requested_skill DESC
+LIMIT
+     5;
+```
+
 ![Most In-Demand Skills For Data Analyst](graphs/query_4.jpg)
+*This graph was built in Excel with the data results from my query*
 
 ### 5. What are the top skills based on salary for a Data Analyst?
+
+```sql
+SELECT
+    skills,
+    ROUND (AVG (salary_year_avg),0) AS avg_salary
+FROM
+    job_postings_fact 
+    INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+    INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE
+    salary_year_avg IS NOT NULL AND
+    job_location = 'Anywhere' AND
+    job_title LIKE '%Data Analyst%' 
+GROUP BY 
+    skills
+ORDER BY 
+    avg_salary DESC
+LIMIT
+     5;
+```
 ![Most In-Demand Skills For Data Analyst](graphs/query_5.jpg)
+*This graph was built in Excel with the data results from my query*
 
 ### 6. What are the most optimal skills to learn (High demand & high paying)?
+
+```sql
+SELECT
+    skills,
+    COUNT (skills) AS number_of_request,
+    ROUND (AVG (salary_year_avg),0) AS avg_salary
+FROM
+    job_postings_fact 
+    INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+    INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE
+    salary_year_avg IS NOT NULL AND
+    job_location = 'Anywhere' AND
+    job_title LIKE '%Data Analyst%' 
+GROUP BY 
+    skills
+ORDER BY 
+    number_of_request DESC
+LIMIT
+     5;
+```
+
 ![Most In-Demand Skills For Data Analyst](graphs/query_6.jpg)
+*This graph was built in Excel with the data results from my query*
 
 # What I Learned
 
