@@ -58,6 +58,8 @@ Here is the breakdown of the top data analyst jobs in 2023:
 
 ### 2. What are the top skills for any remote job in Data Analysis?
 
+![Top Skills For Remote Jobs in Data Analysis](graphs/query_2.jpg)
+
 ### 3. Where (Countries) are the top-paying jobs for any job in Data Analysis? What are their demand?
 
 |Country       |Demand Count|  Avg. Salary ($)|
@@ -77,10 +79,13 @@ Here is the breakdown of the top data analyst jobs in 2023:
 *This graph was built in Excel, it takes into account all roles for Data Analysts*
 
 ### 4. What are the most in-demand skills for a Data Analyst?
+![Most In-Demand Skills For Data Analyst](graphs/query_4.jpg)
 
 ### 5. What are the top skills based on salary for a Data Analyst?
+![Most In-Demand Skills For Data Analyst](graphs/query_5.jpg)
 
 ### 6. What are the most optimal skills to learn (High demand & high paying)?
+![Most In-Demand Skills For Data Analyst](graphs/query_6.jpg)
 
 # What I Learned
 
