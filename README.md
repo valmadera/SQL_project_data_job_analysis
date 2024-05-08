@@ -1,4 +1,4 @@
-# 🚧Introduction
+# 👉🏽Introduction
 Dive into the data job market while figuring out what is the best way to land your first job as a Data Analyst. This project explores top-paying jobs, in-demand skills, and where high demand meets high salary in data analytics.
 
 SQL queries? Check them out here: [sql_job_project folder](/sql_job_project/)
