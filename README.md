@@ -63,9 +63,7 @@ Here is the breakdown of the top data analyst jobs in 2023:
 *Graph built on Excel by Valeria Madera*
 
 ### 2. What are the top skills for any remote job in Data Analysis?
-To identify the top skills for remote jobs I created a temporary table of job postings joined with the skills tables where skills would be related to job postings' requests.
-
-This query counts the number of job postings asking for each skill, providing insight into the top 5 most requested skills and their associated average salaries. 
+To identify the top skills for remote jobs I created a temporary table of job postings joined with the skills tables where skills would be related to job postings' requests. This query counts the number of job postings asking for each skill, providing insight into the top 5 most requested and their associated average salaries. 
 
 ```sql
 -- CTE
@@ -109,9 +107,10 @@ Here is the breakdown of the top skills for jobs in 2023:
 - **Visualization tools:** If you had to choose the most sought tool for this purpose, Tableau is probably the best option to start with. 
 
 ![Top Skills For Remote Jobs in Data Analysis](graphs/query_2.jpg)
-*This graph was built in Excel with the data results from my query*
+*Graph built on Excel by Valeria Madera*
 
 ### 3. In which countries are the top-paying opportunities for any remote job in data analysis? What are their demand?
+To identify the top-paying countries for remote jobs in the field I filtered by country offering the job offer, where the count of jobs was over 4, focusing on remote jobs. This query highlights the high-paying countries, regardless of experience.
 
 ```sql
 SELECT 
@@ -134,6 +133,12 @@ ORDER BY
     number_of_jobs
 LIMIT 10;
 ```
+Here is the breakdown of the top skills for jobs in 2023:
+
+- **Python and SQL:** These skills were the most requested with around 2,180 requests, showing the importance of SQL.
+- **Programming tools:** When your nich is this, better learn Python and then R since Python has three times more requests.
+- **Cloud computing** The third most in-demand and best-paid skill is AWS, a cloud computing service, which states the increasing use of cloud services and the opportunity behind it.
+- **Visualization tools:** If you had to choose the most sought tool for this purpose, Tableau is probably the best option to start with. 
 
 |Country       |Demand Count|  Avg. Salary ($)|
 |--------------|------------|-----------------|
@@ -149,7 +154,7 @@ LIMIT 10;
 |India	       |7	        |  84,571         |
 
 ![Top Average Salaries By Countries](graphs/query_3.jpg)
-*This graph was built in Excel, it takes into account all roles for Data Analysts*
+*Graph built on Excel by Valeria Madera*
 
 ### 4. What are the most in-demand skills for a remote Data Analyst?
 
