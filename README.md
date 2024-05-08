@@ -23,14 +23,14 @@ Data hails from Luke's [SQL Course](https://lukebarousse.com/sql). It is packed 
 - **SQL ➡️** The backbone of my analysis, allowing me to query the database and get insights.
 - **PostgresSQL ➡️** The chosen database management system, ideal for handling the job post data.
 - **Visual Studio Code ➡️** My go-to for database management and executing SQL queries.
-- **Microsoft EXCEL ➡️** My visualization tool for small data sets.
+- **Microsoft EXCEL ➡️** My loyal visualization tool for small data sets.
 - **Git & Github ➡️** Essential for version control and showcasing my SQL script and analysis.
 
 # 📶The Analysis
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here is how I approached each question:
 
 ### 1. What are the top-paying remote jobs?
-To identify the highest-paying roles I filteres data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field.
+To identify the highest-paying roles I filtered data analysis positions by average yearly salary and location, focusing on remote jobs. This query highlights the high-paying opportunities in the field, regardless of experience, where these job postings where made, and where I could apply for them.
 
 ```sql 
 SELECT
@@ -53,12 +53,14 @@ LIMIT
 
 Here is the breakdown of the top data analyst jobs in 2023:
 
-- **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000 indicating significant salary potential in the field.
-- **Diverse employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
-- **Wide Salary Range:** There is a high diversity in job title, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
+- **LinkedIn opportunities:** These job opportunities are in this platform, which enhances the importance of having a well-crafted LinkedIn profile.
+- **Keep learning** Top paying roles belong to Data Scientists and Data Engineers.
+- **Diversity of roles:** There is a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
+- **Wide Salary Range:** Top 10 paying data analyst roles span from $325,000 to $550,000 indicating significant salary potential in the field.
+- **Diverse employers:** 8 out of 10 job postings are from the United States with companies like Selby Jennings, Algo Capital Group, Engtal, and Meta showing a broad interest across different industries.
 
 ![Top Paying Remote Roles](graphs/query_1.jpg)
-*This graph was built in Excel with the data results from my query*
+*Graph built on Excel*
 
 ### 2. What are the top skills for any remote job in Data Analysis?
 
