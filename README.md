@@ -23,6 +23,7 @@ Data hails from Luke's [SQL Course](https://lukebarousse.com/sql). It is packed 
 - **SQL ➡️** The backbone of my analysis, allowing me to query the database and get insights.
 - **PostgresSQL ➡️** The chosen database management system, ideal for handling the job post data.
 - **Visual Studio Code ➡️** My go-to for database management and executing SQL queries.
+- **Microsoft EXCEL ➡️** My visualization tool for small data sets.
 - **Git & Github ➡️** Essential for version control and showcasing my SQL script and analysis.
 
 # 📶The Analysis
