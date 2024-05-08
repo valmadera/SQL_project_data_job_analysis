@@ -1,4 +1,4 @@
-/* What are the most in-demand skills for a Data Analyst?
+/* What are the most in-demand skills for a remote Data Analyst?
 - Indentify the top 5 in-demand skills for a data analyst.
 - All job posting, including NULL values. 
 - Why? This will provide insights of the most requested skills for someone who is not a Data Engineer 

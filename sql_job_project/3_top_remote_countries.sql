@@ -1,4 +1,4 @@
-/* Where (Countries) are the top-paying jobs for any job in Data Analysis? What are their demand?
+/* In which countries are the top-paying opportunities for any remote job in data analysis? What are their demand?
 - Only include jobs with salaries.
 - Identifing the top 10 countries with the highest average paying jobs available remotely.
 - How many job offers do these countries have?

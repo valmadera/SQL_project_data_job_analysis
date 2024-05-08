@@ -1,4 +1,4 @@
-/* What are the most optimal skills to learn (High demand & high paying)?
+/* What are the most optimal skills to learn as a remote Data Analyst?
 - Identify skills is high demand but also with a high average salary for Data Analyst.
 - This will include only remote position with not NULL salaries.
 - Why? By knowing what skills are in high demand and well paid I could prioritize the skills to learn first.*/

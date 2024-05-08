@@ -1,4 +1,4 @@
-/* What are the top skills based on salary for a Data Analyst?
+/* What are the top skills based on salary for a remote  Data Analyst?
 - Average salary associated with each skill for Data Analyst positions.
 - Include only the jobs with salaries.
 - Why? It will allow me to understand how this skills impact at such level the salary of a data analyst. e.g. 
