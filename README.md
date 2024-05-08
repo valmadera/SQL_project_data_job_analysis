@@ -135,7 +135,7 @@ LIMIT 10;
 ![Top Average Salaries By Countries](graphs/query_3.jpg)
 *This graph was built in Excel, it takes into account all roles for Data Analysts*
 
-### 4. What are the most in-demand skills for a Data Analyst?
+### 4. What are the most in-demand skills for a Data Analyst? 
 
 ```sql
 SELECT
