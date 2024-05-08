@@ -1,11 +1,14 @@
 # Introduction
-Dive into the data job market on data analyst roles, this project explores top-paying jobs, in-demand skills, and where high demand meets high salary in data analytics.
+Dive into the data job market while figuring out what is the best way to land your first job as a Data Analyst. This project explores top-paying jobs, in-demand skills, and where high demand meets high salary in data analytics.
 
 SQL queries? Check them out here: [sql_job_project folder](/sql_job_project/)
-# Background
-Driven by a quest to navigate the data analyst job mmarket more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs. 
 
-Data hails from my [SQL Course](https://lukebarousse.com/sql). It is packed with insights on job titles, salaries, locations, and essential skills.
+# Background
+As a chemical engineer looking to turn to data analysis, I wanted to navigate the data analyst job market more effectively. This project was born from a desire to learn while highlighting top-paid and in-demand skills, streamlining my research to find optimal opportunities.
+
+Luke Barousee offers a great opportunity to get both on his YouTube course, where he helps people like me achieve this goal by showcasing the skills we learned at the same that we can thoroughly understand the data analysis job market. 
+
+Data hails from Luke's [SQL Course](https://lukebarousse.com/sql). It is packed with insights on job titles, salaries, locations, and essential skills.
 
 ### The questions I wanted to answer through my SQL queries were:
 
