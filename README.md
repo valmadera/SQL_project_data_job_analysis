@@ -12,12 +12,12 @@ Data hails from Luke's [SQL Course](https://lukebarousse.com/sql). It is packed 
 
 ### The questions I wanted to answer through my SQL queries were:
 
-1. What are the top-paying remote jobs?
-2. What are the top skills for any remote job in Data Analysis?
-3. Where (Countries) are the top-paying jobs for any job in Data Analysis? What are their demand?
-4. What are the most in-demand skills for a Data Analyst?
-5. What are the top skills based on salary for a Data Analyst?
-6. What are the most optimal skills to learn (High demand & high paying)?
+1. What are the top-paying remote jobs in data analysis?
+2. What are the top skills for any remote job in data analysis?
+3. In which countries are the top-paying opportunities for any remote job in data analysis? What are their demand?
+4. What are the most in-demand skills for a remote Data Analyst?
+5. What are the top skills based on salary for a remote Data Analyst?
+6. What are the most optimal skills to learn as a remote Data Analyst?
 
 # Tools I Used
 - **SQL ->** The backbone of my analysis, allowing me to query the database and unearth critical insights.
@@ -98,7 +98,7 @@ LIMIT
 ![Top Skills For Remote Jobs in Data Analysis](graphs/query_2.jpg)
 *This graph was built in Excel with the data results from my query*
 
-### 3. Where (Countries) are the top-paying jobs for any job in Data Analysis? What are their demand?
+### 3. In which countries are the top-paying opportunities for any remote job in data analysis? What are their demand?
 
 ```sql
 SELECT 
@@ -138,7 +138,7 @@ LIMIT 10;
 ![Top Average Salaries By Countries](graphs/query_3.jpg)
 *This graph was built in Excel, it takes into account all roles for Data Analysts*
 
-### 4. What are the most in-demand skills for a Data Analyst? 
+### 4. What are the most in-demand skills for a remote Data Analyst?
 
 ```sql
 SELECT
@@ -162,7 +162,7 @@ LIMIT
 ![Most In-Demand Skills For Data Analyst](graphs/query_4.jpg)
 *This graph was built in Excel with the data results from my query*
 
-### 5. What are the top skills based on salary for a Data Analyst?
+### 5. What are the top skills based on salary for a remote Data Analyst?
 
 ```sql
 SELECT
@@ -186,7 +186,7 @@ LIMIT
 ![Most In-Demand Skills For Data Analyst](graphs/query_5.jpg)
 *This graph was built in Excel with the data results from my query*
 
-### 6. What are the most optimal skills to learn (High demand & high paying)?
+### 6. What are the most optimal skills to learn as a remote Data Analyst?
 
 ```sql
 SELECT
