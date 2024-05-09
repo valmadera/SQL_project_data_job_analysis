@@ -153,6 +153,7 @@ Here is the breakdown of the top skills for jobs in 2023:
 |Mexico	       |8	        |  110,313        |
 |Australia	   |7	        |  85,357         |
 |India	       |7	        |  84,571         |
+
 *Regardless of salaries, in terms of remote job opportunities the United States is the country to go for. If you speak Spanish there are great opportunities in Argentina and Colombia, however, it is important to take into account the level of experience requested for each proposal*
 
 ![Top Average Salaries By Countries](graphs/query_3.jpg)
