@@ -6,9 +6,9 @@ SQL queries? Check them out here: [sql_job_project folder](/sql_job_project/)
 # ✨Background
 As a chemical engineer looking to turn to data analysis, I wanted to navigate the data analyst job market more effectively. This project was born from a desire to learn while highlighting top-paid and in-demand skills, streamlining my research to find optimal opportunities.
 
-Luke Barousee offers a great opportunity to get both on his YouTube course, where he helps people like me achieve this goal by showcasing the skills we learned at the same that we can thoroughly understand the data analysis job market. 
+Luke Barousse offers a great opportunity to get both on his YouTube course, where he helps people like me achieve this goal by showcasing the skills we learned at the same that we can thoroughly understand the data analysis job market. 
 
-Data hails from Luke's [SQL Course](https://lukebarousse.com/sql). It is packed with insights on job titles, salaries, locations, and essential skills.
+Data hails from Luke's [SQL Course](https://lukebarousse.com/sql). It is packed with insights on job titles, salaries, locations, and essential skills from 2023.
 
 ### The questions I wanted to answer through my SQL queries were:
 
@@ -30,7 +30,7 @@ Data hails from Luke's [SQL Course](https://lukebarousse.com/sql). It is packed 
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here is how I approached each question:
 
 ### 1. What are the top-paying remote jobs?
-To identify the highest-paying roles I filtered data analysis positions by average yearly salary and location, focusing on remote jobs. This query highlights the high-paying opportunities in the field, regardless of experience, where these job postings were made, and where I could apply for them.
+To identify the highest-paying roles I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high-paying opportunities in the field, the location from where these job postings were made, and the platforms to apply for them regardless of experience.
 
 ```sql 
 SELECT
