@@ -240,9 +240,9 @@ LIMIT
 
 Throughout this adventure I have powered my SQL toolkit with some:
 
--**Complex Query Crafting:** Mastered the art of advanced SQL, merging tables and using WITH clauses for table maneuvers.
--**Data aggregation:** Got cozy with GROUP BY, HAVING, COUNT (), and AVG () in my data-summarizing tricks book.
--**Analytical Super Power:** Leveled up my real-world problem-solving skills, turning questions into actionable, insightful SQL queries.
+- **Complex Query Crafting:** Mastered the art of advanced SQL, merging tables and using WITH clauses for table maneuvers.
+- **Data aggregation:** Got cozy with GROUP BY, HAVING, COUNT (), and AVG () in my data-summarizing tricks book.
+- **Analytical Super Power:** Leveled up my real-world problem-solving skills, turning questions into actionable, insightful SQL queries.
 
 # 🏆Conclusions
 
