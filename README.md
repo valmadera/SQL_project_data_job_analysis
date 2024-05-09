@@ -110,7 +110,7 @@ Here is the breakdown of the top skills for jobs in 2023:
 *Graph built on Excel by Valeria Madera*
 
 ### 3. In which countries are the top-paying opportunities for any remote job in data analysis? What are their demand?
-To identify the top-paying countries for remote jobs in the field I filtered by country, where the count of offers was over 4, focusing on remote jobs. This query highlights the high-paying countries, regardless of job position.
+To identify the top-paying countries for remote jobs in the field I filtered by country, where the count of offers was over 4, focusing on remote jobs, regardless of job position. This query highlights the high-paying countries, regardless of job position.
 
 ```sql
 SELECT 
@@ -154,12 +154,11 @@ Here is the breakdown of the top skills for jobs in 2023:
 |Australia	   |7	        |  85,357         |
 |India	       |7	        |  84,571         |
 
-*Regardless of salaries, in terms of remote job opportunities the United States is the country to go for. If you speak Spanish there are great opportunities in Argentina and Colombia, however, it is important to take into account the level of experience requested for each proposal*
-
 ![Top Average Salaries By Countries](graphs/query_3.jpg)
-*Graph built on Excel by Valeria Madera*
+*Graph built on Excel by Valeria Madera. If you are looking for remote job opportunities, the United States is your best bet regardless of salaries. However, if you are fluent in Spanish, Argentina and Colombia offer great opportunities as well.*
 
 ### 4. What are the most in-demand skills for a remote Data Analyst?
+To identify the top 5 in-demand skills for remote jobs I joined the job posting table with the skills tables, filtered by only Data Analyst roles, focusing on remote jobs. This query highlights the demand of each skill by counting out their requests.
 
 ```sql
 SELECT
@@ -179,6 +178,14 @@ ORDER BY
 LIMIT
      5;
 ```
+
+Here is the breakdown of the top data analyst jobs in 2023:
+
+- **LinkedIn opportunities:** These job opportunities are in this platform, which enhances the importance of having a well-crafted LinkedIn profile.
+- **Keep learning** Top paying roles belong to Data Scientists and Data Engineers.
+- **Diverse of roles:** There is a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
+- **Diverse employers:** 8 out of 10 job postings are from the United States with companies like Selby Jennings, Algo Capital Group, Engtal, and Meta showing a broad interest across different industries.
+- **Wide Salary Range:** Top 10 paying data analyst roles span from $325,000 to $550,000 indicating significant salary potential in the field.
 
 ![Most In-Demand Skills For Data Analyst](graphs/query_4.jpg)
 *This graph was built in Excel with the data results from my query*
