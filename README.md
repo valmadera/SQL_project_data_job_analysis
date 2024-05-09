@@ -136,10 +136,10 @@ LIMIT 10;
 Here is the breakdown of the top skills for jobs in 2023:
 
 - **Wide Salary Range:** The country's average salaries span from $84,500 to $182,900 indicating significant salary potential in the field.
-- **Python and SQL:** These skills were the most requested with around 2,180 requests, showing the importance of SQL.
-- **Programming tools:** Mastering Python and then R is the way to go. Python is three times more in-demand than R, making it a great starting point.
-- **Cloud computing** The third most in-demand and best-paid skill is AWS, a cloud computing service, stating the increasing use of cloud services and the opportunity behind it.
-- **Visualization tools:** If you had to choose the most sought tool for this purpose, Tableau is probably the best option to start with. 
+- **Large number of opportunities:** If you are ready to jump into the world of remote Data Analyst, the United States is your base point.
+- **Latin America:** As a Latinamerican is always good to know that there are attainable great opportunities in the south of the continent.
+- **New competitors:** Sorprisely enough Sudan is another market to explore. It is recommended to look at why there are that many proposals there.
+
 
 |Country       |Demand Count|  Avg. Salary ($)|
 |--------------|------------|-----------------|
