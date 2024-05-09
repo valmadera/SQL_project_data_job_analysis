@@ -178,16 +178,13 @@ LIMIT
      5;
 ```
 
-Here is the breakdown of the top data analyst jobs in 2023:
+Here is the breakdown of the top 5 in-demand skills for Data Analysts in 2023:
 
-- **LinkedIn opportunities:** These job opportunities are in this platform, which enhances the importance of having a well-crafted LinkedIn profile.
-- **Keep learning** Top paying roles belong to Data Scientists and Data Engineers.
-- **Diverse of roles:** There is a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
-- **Diverse employers:** 8 out of 10 job postings are from the United States with companies like Selby Jennings, Algo Capital Group, Engtal, and Meta showing a broad interest across different industries.
-- **Wide Salary Range:** Top 10 paying data analyst roles span from $325,000 to $550,000 indicating significant salary potential in the field.
+- **Keep learning** Mastering SQL, Python, Excel, Tableau, and Power BI will allow you to attain more chances of getting a job.
+- **Variety of Tools:** The foundations are covered, a language to learn Python, a cleaning tool for big data use SQL, a visualization tool Tableau or Power BI, and if you want both for small data sets, Excel is your best bet.
 
 ![Most In-Demand Skills For Data Analyst](graphs/query_4.jpg)
-*This graph was built in Excel with the data results from my query*
+*Graph built on Excel by Valeria Madera*
 
 ### 5. What are the top skills based on salary for a remote Data Analyst?
 
