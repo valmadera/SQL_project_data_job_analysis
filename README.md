@@ -242,9 +242,10 @@ LIMIT
 ```
 Here is the breakdown of the top 5 optimal skills for Data Analysts in 2023:
 
-- **Great salary:** The salary for these skills spans from $185.000 to $189,100.
-- **Niche skills:** Mastering skills in building data-driven applications can significantly boost your average salary.
-- 
+- **Keep learning:** It enhances the importance of learning SQL, Tableau, and Excel, not only for beginners.
+- **SQL:** The high demand for SQL is a reflection of the increasing use of databases and the importance of using data insights. 
+- **R:** The fifth most wanted skill is used for data science by statisticians and data miners for data analysis and the development of statistical software. If you lean toward this niche, alongside Python learning them is a must. 
+
 ![Most In-Demand Skills For Data Analyst](graphs/query_6.jpg)
 *Graph built on Excel by Valeria Madera*
 
