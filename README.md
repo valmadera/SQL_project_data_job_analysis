@@ -110,7 +110,7 @@ Here is the breakdown of the top skills for jobs in 2023:
 *Graph built on Excel by Valeria Madera*
 
 ### 3. In which countries are the top-paying opportunities for any remote job in data analysis? What are their demand?
-To identify the top-paying countries for remote jobs in the field I filtered by country offering the job offer, where the count of jobs was over 4, focusing on remote jobs. This query highlights the high-paying countries, regardless of experience.
+To identify the top-paying countries for remote jobs in the field I filtered by country, where the count of offers was over 4, focusing on remote jobs. This query highlights the high-paying countries, regardless of job'sposition.
 
 ```sql
 SELECT 
@@ -136,8 +136,8 @@ LIMIT 10;
 Here is the breakdown of the top skills for jobs in 2023:
 
 - **Python and SQL:** These skills were the most requested with around 2,180 requests, showing the importance of SQL.
-- **Programming tools:** When your nich is this, better learn Python and then R since Python has three times more requests.
-- **Cloud computing** The third most in-demand and best-paid skill is AWS, a cloud computing service, which states the increasing use of cloud services and the opportunity behind it.
+- **Programming tools:** Mastering Python and then R is the way to go. Python is three times more in-demand than R, making it a great starting point.
+- **Cloud computing** The third most in-demand and best-paid skill is AWS, a cloud computing service, stating the increasing use of cloud services and the opportunity behind it.
 - **Visualization tools:** If you had to choose the most sought tool for this purpose, Tableau is probably the best option to start with. 
 
 |Country       |Demand Count|  Avg. Salary ($)|
