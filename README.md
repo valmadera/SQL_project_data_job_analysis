@@ -135,6 +135,7 @@ LIMIT 10;
 ```
 Here is the breakdown of the top skills for jobs in 2023:
 
+- **Wide Salary Range:** The country's average salaries span from $84,500 to $182,900 indicating significant salary potential in the field.
 - **Python and SQL:** These skills were the most requested with around 2,180 requests, showing the importance of SQL.
 - **Programming tools:** Mastering Python and then R is the way to go. Python is three times more in-demand than R, making it a great starting point.
 - **Cloud computing** The third most in-demand and best-paid skill is AWS, a cloud computing service, stating the increasing use of cloud services and the opportunity behind it.
@@ -152,6 +153,7 @@ Here is the breakdown of the top skills for jobs in 2023:
 |Mexico	       |8	        |  110,313        |
 |Australia	   |7	        |  85,357         |
 |India	       |7	        |  84,571         |
+*Regardless of salaries, in terms of remote job opportunities the United States is the country to go for. If you speak Spanish there are great opportunities in Argentina and Colombia, however, it is important to take into account the level of experience requested for each proposal*
 
 ![Top Average Salaries By Countries](graphs/query_3.jpg)
 *Graph built on Excel by Valeria Madera*
