@@ -30,7 +30,7 @@ Data hails from Luke's [SQL Course](https://lukebarousse.com/sql). It is packed 
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here is how I approached each question:
 
 ### 1. What are the top-paying remote jobs?
-To identify the highest-paying roles I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high-paying opportunities in the field, the location from where these job postings were made, and the platforms to apply for them regardless of experience.
+To identify the highest-paying roles I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high-paying opportunities in the field, the average year salary, the location from where these job postings were made, and the platforms to apply for them regardless of experience.
 
 ```sql 
 SELECT
@@ -63,7 +63,7 @@ Here is the breakdown of the top data analyst jobs in 2023:
 *Graph built on Excel by Valeria Madera*
 
 ### 2. What are the top skills for any remote job in Data Analysis?
-To identify the top skills for remote jobs I created a temporary table of job postings joined with the skills tables where skills would be related to job postings' requests. This query counts the number of job postings asking for each skill, providing insight into the top 5 most requested and their associated average salaries. 
+To identify the top skills for remote jobs I created a temporary table of job postings joined with skills tables where I could relate both of them. This query counts the number of job postings asking for each skill, providing insights into the top 5 most requested skills and their average salaries. 
 
 ```sql
 -- CTE
@@ -99,12 +99,12 @@ LIMIT
      5;
 ```
 
-Here is the breakdown of the top skills for jobs in 2023:
+Here is the breakdown of the top 5 skills for remote jobs in 2023:
 
-- **Python and SQL:** These skills were the most requested with around 2,180 requests, showing the importance of SQL.
-- **Programming tools:** When your nich is this, better learn Python and then R since Python has three times more requests.
+- **Python and SQL:** These skills were the most requested with around 2,180 requests, showing their importance.
+- **Programming tools:** When your niche is this, better learn Python and then R since Python has three times more requests.
 - **Cloud computing:** The third most in-demand and best-paid skill is AWS, a cloud computing service, which states the increasing use of cloud services and the opportunity behind it.
-- **Visualization tools:** If you had to choose the most sought tool for this purpose, Tableau is probably the best option to start with. 
+- **Visualization tools:** If you have to choose the most sought tool for this purpose, Tableau is probably the best option to start with. 
 
 ![Top Skills For Remote Jobs in Data Analysis](graphs/query_2.jpg)
 *Graph built on Excel by Valeria Madera*
