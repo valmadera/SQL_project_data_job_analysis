@@ -154,8 +154,7 @@ Here is the breakdown of the top skills for jobs in 2023:
 |Australia	   |7	        |  85,357         |
 |India	       |7	        |  84,571         |
 
-![Top Average Salaries By Countries](graphs/query_3.jpg)
-*Graph built on Excel by Valeria Madera. If you are looking for remote job opportunities, the United States is your best bet regardless of salaries. However, if you are fluent in Spanish, Argentina and Colombia offer great opportunities as well.*
+*If you are looking for remote job opportunities, the United States is your best bet regardless of salaries. However, if you are fluent in Spanish, Argentina and Colombia offer great opportunities as well.*
 
 ### 4. What are the most in-demand skills for a remote Data Analyst?
 To identify the top 5 in-demand skills for remote jobs I joined the job posting table with the skills tables, filtered by only Data Analyst roles, focusing on remote jobs. This query highlights the demand of each skill by counting out their requests.
