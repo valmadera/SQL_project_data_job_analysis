@@ -54,7 +54,7 @@ LIMIT
 Here is the breakdown of the top data analyst jobs in 2023:
 
 - **LinkedIn opportunities:** These job opportunities are in this platform, which enhances the importance of having a well-crafted LinkedIn profile.
-- **Keep learning** Top paying roles belong to Data Scientists and Data Engineers.
+- **Keep learning:** Top paying roles belong to Data Scientists and Data Engineers.
 - **Diverse of roles:** There is a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
 - **Diverse employers:** 8 out of 10 job postings are from the United States with companies like Selby Jennings, Algo Capital Group, Engtal, and Meta showing a broad interest across different industries.
 - **Wide Salary Range:** Top 10 paying data analyst roles span from $325,000 to $550,000 indicating significant salary potential in the field.
@@ -103,7 +103,7 @@ Here is the breakdown of the top skills for jobs in 2023:
 
 - **Python and SQL:** These skills were the most requested with around 2,180 requests, showing the importance of SQL.
 - **Programming tools:** When your nich is this, better learn Python and then R since Python has three times more requests.
-- **Cloud computing** The third most in-demand and best-paid skill is AWS, a cloud computing service, which states the increasing use of cloud services and the opportunity behind it.
+- **Cloud computing:** The third most in-demand and best-paid skill is AWS, a cloud computing service, which states the increasing use of cloud services and the opportunity behind it.
 - **Visualization tools:** If you had to choose the most sought tool for this purpose, Tableau is probably the best option to start with. 
 
 ![Top Skills For Remote Jobs in Data Analysis](graphs/query_2.jpg)
@@ -180,13 +180,14 @@ LIMIT
 
 Here is the breakdown of the top 5 in-demand skills for Data Analysts in 2023:
 
-- **Keep learning** Mastering SQL, Python, Excel, Tableau, and Power BI will allow you to attain more chances of getting a job.
+- **Keep learning:** Mastering SQL, Python, Excel, Tableau, and Power BI will allow you to attain more chances of getting a job.
 - **Variety of Tools:** The foundations are covered, a language to learn Python, a cleaning tool for big data use SQL, a visualization tool Tableau or Power BI, and if you want both for small data sets, Excel is your best bet.
 
 ![Most In-Demand Skills For Data Analyst](graphs/query_4.jpg)
 *Graph built on Excel by Valeria Madera*
 
 ### 5. What are the top skills based on salary for a remote Data Analyst?
+To identify the top-paying skills for remote jobs as a Data Analyst I filtered by Data Analyst roles, focusing on remote jobs, and ordered them from highest to lowest according to their average salary. This query highlights the top 5 best-paid skills and their associated salary.
 
 ```sql
 SELECT
@@ -207,10 +208,17 @@ ORDER BY
 LIMIT
      5;
 ```
+
+Here is the breakdown of the top 5 best-paid skills for Data Analysts in 2023:
+
+- **Great salary:** The salary for these skills spans from $185.000 to $189,100.
+- **Niche skills:** Mastering skills in building data-driven applications can significantly boost your average salary.
+
 ![Most In-Demand Skills For Data Analyst](graphs/query_5.jpg)
 *Graph built on Excel by Valeria Madera*
 
 ### 6. What are the most optimal skills to learn as a remote Data Analyst?
+To identify the highest-demand and top-paying skills for remote jobs as a Data Analyst I filtered by Data Analyst roles, focusing on remote jobs, and ordered them from highest to lowest according to their count of requests. This query highlights the top 5 most wanted and best-paid skills, the number of requests, and their associated average salary.
 
 ```sql
 SELECT
@@ -232,7 +240,11 @@ ORDER BY
 LIMIT
      5;
 ```
+Here is the breakdown of the top 5 optimal skills for Data Analysts in 2023:
 
+- **Great salary:** The salary for these skills spans from $185.000 to $189,100.
+- **Niche skills:** Mastering skills in building data-driven applications can significantly boost your average salary.
+- 
 ![Most In-Demand Skills For Data Analyst](graphs/query_6.jpg)
 *Graph built on Excel by Valeria Madera*
 
