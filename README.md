@@ -110,7 +110,7 @@ Here is the breakdown of the top 5 skills for remote jobs in 2023:
 *Graph built on Excel by Valeria Madera*
 
 ### 3. In which countries are the top-paying opportunities for any remote job in data analysis? What are their demand?
-To identify the top-paying countries for remote jobs in the field I filtered by country, where the count of offers was over 4, focusing on remote jobs, regardless of job position. This query highlights the high-paying countries, regardless of job position.
+To identify the top-paying countries for remote jobs in the field I joined the job posting table with the company table so I could relate the companies' location then filtered by country, where the count of offers was over 4, focusing on remote jobs, **regardless of job position**. This query highlights the highest-paying countries, the number of offers they have, and their average year salary.
 
 ```sql
 SELECT 
