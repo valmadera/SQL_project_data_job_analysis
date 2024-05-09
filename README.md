@@ -182,8 +182,8 @@ LIMIT
 
 Here is the breakdown of the top 5 in-demand skills for Data Analysts in 2023:
 
-- **Keep learning:** Mastering SQL, Python, Excel, Tableau, and Power BI will allow you to get more chances with your dream job.
-- **Variety of tools:** The foundations are covered, a language to learn Python, a cleaning tool for big data SQL, a visualization tool Tableau or Power BI, and if you want both for small data sets, Excel is your best bet.
+- **Keep Learning:** Mastering SQL, Python, Excel, Tableau, and Power BI will allow you to get more chances with your dream job.
+- **Variety of Tools:** The foundations are covered, a language to learn Python, a cleaning tool for big data SQL, a visualization tool Tableau or Power BI, and if you want both for small data sets, Excel is your best bet.
 
 ![Most In-Demand Skills For Data Analyst](graphs/query_4.jpg)
 *Graph built on Excel by Valeria Madera*
@@ -213,8 +213,8 @@ LIMIT
 
 Here is the breakdown of the top 5 best-paid skills for Data Analysts in 2023:
 
-- **Great salary:** The yearly salary for these skills spans from $185,000 to $189,100.
-- **Niche skills:** Mastering skills in building data-driven applications can significantly boost your average year salary.
+- **Great Salary:** The yearly salary for these skills spans from $185,000 to $189,100.
+- **Niche Skills:** Mastering skills in building data-driven applications can significantly boost your average year salary.
 
 ![Most In-Demand Skills For Data Analyst](graphs/query_5.jpg)
 *Graph built on Excel by Valeria Madera*
@@ -244,9 +244,9 @@ LIMIT
 ```
 Here is the breakdown of the top 5 optimal skills for Data Analysts in 2023:
 
-- **Keep learning:** It enhances the importance of learning SQL, Tableau, and Excel, not only for beginners.
-- **SQL:** The high demand for SQL is a reflection of the increasing use of databases and the importance of using data insights. 
-- **R:** The fifth most wanted skill is used for data science by statisticians and data miners for data analysis and the development of statistical software. If you lean toward this niche, alongside Python learning them is a must. 
+- **Keep Learning:** It enhances the importance of learning SQL, Tableau, and Excel.
+- **SQL:** The high demand for SQL is a reflection of the increasing use of databases and the importance of using data. 
+- **R:** The fifth most wanted skill is used for data science by statisticians and data miners for data analysis and the development of statistical software. If you lean toward this niche alongside Python, learning them is a must. 
 
 ![Most In-Demand Skills For Data Analyst](graphs/query_6.jpg)
 *Graph built on Excel by Valeria Madera*
@@ -256,7 +256,7 @@ Here is the breakdown of the top 5 optimal skills for Data Analysts in 2023:
 Throughout this adventure I have powered my SQL toolkit with some:
 
 - **Complex Query Crafting:** Mastered the art of advanced SQL, merging tables and using WITH clauses for table maneuvers.
-- **Data aggregation:** Got cozy with GROUP BY, HAVING, COUNT (), and AVG () in my data-summarizing tricks book.
+- **Data Aggregation:** Got cozy with GROUP BY, HAVING, COUNT (), and AVG () in my data-summarizing tricks book.
 - **Analytical Super Power:** Leveled up my real-world problem-solving skills, turning questions into actionable, insightful SQL queries.
 
 # 🏆Conclusions
