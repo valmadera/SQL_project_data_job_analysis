@@ -110,7 +110,9 @@ Here is the breakdown of the top 5 skills for remote jobs in 2023:
 *Graph built on Excel by Valeria Madera*
 
 ### 3. In which countries are the top-paying opportunities for any remote job in data analysis? What are their demand?
-To identify the top-paying countries for remote jobs in the field I joined the job posting table with the company table so I could relate the companies' location then filtered by country, where the count of offers was over 4, focusing on remote jobs, **regardless of job position**. This query highlights the highest-paying countries, the number of offers they have, and their average year salary.
+To identify the top-paying countries for remote jobs in the field I joined the job posting table with the company table, so I could relate the companies' location, then filtered by country, number of offers, always focusing on remote jobs, **regardless of job position**. 
+
+This query highlights the highest-paying countries, the number of offers they have, and their average year salary.
 
 ```sql
 SELECT 
@@ -138,7 +140,7 @@ Here is the breakdown of the top skills for jobs in 2023:
 - **Wide Salary Range:** The country's average salaries span from $84,500 to $182,900 indicating significant salary potential in the field.
 - **Large number of opportunities:** If you are ready to jump into the world of remote Data Analyst, the United States is your base point.
 - **Latin America:** As a Latinamerican is always good to know that there are attainable great opportunities in the south of the continent.
-- **New competitors:** Sorprisely enough Sudan is another market to explore. It is recommended to look at why there are that many proposals there.
+- **New competitors:** Surprisingly enough, Sudan is another market to explore. It is recommended to look at why there are that many proposals.
 
 
 |Country       |Demand Count|  Avg. Salary ($)|
