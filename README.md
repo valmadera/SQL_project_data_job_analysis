@@ -268,7 +268,7 @@ From the analysis, several general insights emerged:
 - The highest-paying jobs for data analysts that allow remote work offer a wide range of salaries, the highest at $550.000.
 - The best opportunities for remote jobs are in the United States, offering a wide number of opportunities and a diversity of options.
   
-2. **Skills For Top-Paying Jobs**
+2. **Skills for Top-Paying Jobs**
 - High-paying Data Analyst jobs require advanced proficiency in Python and SQL, suggesting they are critical skills for earning a top salary.
 - Niche skills associated with applications based on data are the best paid, however, they are not in great demand.
 - Learning cloud computing as AWS could bring great benefits since it is in high demand and well paid.
