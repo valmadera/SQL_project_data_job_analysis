@@ -101,7 +101,7 @@ LIMIT
 
 Here is the breakdown of the top 5 skills for remote jobs in 2023:
 
-- **Python and SQL:** These skills were the most requested with around 2,180 requests, showing their importance.
+- **Python and SQL:** These skills were the most requested with around 2,180 requests each, showing their importance.
 - **Programming Tools:** When your niche is this, better learn Python and then R since Python has three times more requests.
 - **Cloud Computing:** The third most in-demand and best-paid skill is AWS, a cloud computing service, which states the increasing use of cloud services and the opportunity behind it.
 - **Visualization Tools:** If you have to choose the most sought tool for this purpose, Tableau is probably the best option to start with. 
@@ -110,7 +110,7 @@ Here is the breakdown of the top 5 skills for remote jobs in 2023:
 *Graph built on Excel by Valeria Madera*
 
 ### 3. In which countries are the top-paying opportunities for any remote job in data analysis? What are their demand?
-To identify the top-paying countries for remote jobs in the field I joined the job posting table with the companies table, so I could relate the companies' location, then filtered by location, job posting country, and number of offers, **regardless of job position**. 
+To identify the top-paying countries for remote jobs in the field I joined the job posting table with the companies table, so I could relate the companies' location, then filtered by location, job posting country, and number of offers, regardless of job position. 
 
 This query highlights the highest-paying countries, the number of offers they have, and their average year salary.
 
@@ -156,7 +156,7 @@ Here is the breakdown of the top skills for jobs in 2023:
 |Australia	   |7	        |  85,357         |
 |India	       |7	        |  84,571         |
 
-*If you are looking for remote job opportunities, the United States is your best bet due to the number of proposals available. However, if you are fluent in Spanish, Argentina and Colombia offer great opportunities as well.*
+*If you are looking for remote job opportunities, the United States is your best bet, since it has the largest number of proposals. However, if you are fluent in Spanish, Argentina and Colombia offer great opportunities as well.*
 
 ### 4. What are the most in-demand skills for a remote Data Analyst?
 To identify the top 5 in-demand skills for remote jobs I joined the job posting table with the skills tables, filtered by only Data Analyst roles, focusing on remote jobs. This query highlights the skills and their demand by counting out their requests.
@@ -183,7 +183,7 @@ LIMIT
 Here is the breakdown of the top 5 in-demand skills for Data Analysts in 2023:
 
 - **Keep Learning:** Mastering SQL, Python, Excel, Tableau, and Power BI will allow you to get more chances with your dream job.
-- **Variety of Tools:** The foundations are covered, a language to learn Python, a cleaning tool for big data SQL, a visualization tool Tableau or Power BI, and if you want both for small data sets, Excel is your best bet.
+- **Variety of Tools:** The foundations are covered, a language to learn Python, a cleaning tool for big data SQL, a visualization tool Tableau or Power BI, and if you want both for small data sets, Excel is your go-to.
 
 ![Most In-Demand Skills For Data Analyst](graphs/query_4.jpg)
 *Graph built on Excel by Valeria Madera*
